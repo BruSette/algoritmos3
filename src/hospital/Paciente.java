@@ -124,8 +124,4 @@ public class Paciente {
     public void setObservacoes(String observacoes) {
         this.observacoes = observacoes;
     }
-    
-    
-    
-    
 }
