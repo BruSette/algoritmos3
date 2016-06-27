@@ -10,7 +10,7 @@ package hospital;
  *
  * @author aluno
  */
-public class Medico extends Pessoa {
+public class Medico extends Funcionario {
     
     private String crm;
     private String especialidade;

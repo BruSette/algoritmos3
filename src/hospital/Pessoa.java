@@ -18,7 +18,7 @@ public class Pessoa {
     private String rg;
     private Date dataNascimento;
     private String telefone;
-    private String endereco;
+    private Endereco endereco;
     private char sexo;
 
     public String getNome() {
@@ -61,11 +61,11 @@ public class Pessoa {
         this.telefone = telefone;
     }
 
-    public String getEndereco() {
+    public Endereco getEndereco() {
         return endereco;
     }
 
-    public void setEndereco(String endereco) {
+    public void setEndereco(Endereco endereco) {
         this.endereco = endereco;
     }
 
